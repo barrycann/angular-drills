@@ -1,6 +1,19 @@
-<html>
-	<body>
-	
+<html ng-app='firstApp'>
+	<body ng-controller='firstCtrl'>
+		<div>
+			<div>
+				<input placeholder="Enter Name" ng-submit="myName"/>
+			</div>
+			<div>
+				<p>{{countdown()}}</p>
+			</div>
+			<div>
+				<p>Ready? {{ready}}</p>
+			</div>
+		</div>
+		
+		<button ng-click="readyYet()">Are you ready?</button>
+
 		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.3/angular.js"></script>
 		<script src="app.js"></script>
 		<script src="controller.js"></script>

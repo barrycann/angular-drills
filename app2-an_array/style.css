@@ -6,3 +6,12 @@
 	width: 24%;	
 	display: inline-block;
 }
+
+li {
+	list-style: none;
+}
+
+.name {
+	font-family: sans-serif;
+	color: blue;
+}
